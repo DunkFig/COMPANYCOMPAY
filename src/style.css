@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    width: 100%;
+    z-index: -12;
+    position: absolute;
+    overflow: hidden;
+}
+
+.sphereLabel{
+    color: rgb(48, 48, 48);
+    margin-left: 50px;
+    background-color: rgba(240, 248, 255, 0.838);
+    float: left;
+    position: absolute;
+    width: 800px;
+    top: 40px;
+    z-index: -40;
+    font-family: "Sofia Sans", sans-serif;
+    padding: 30px;
+    border: rgb(48, 48, 48) 1px solid;
+    border-radius: 5px;
+    box-shadow: rgba(57, 57, 57, 0.862) 4px 4px 10px;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.img{
+    pointer-events: none;
+}
+
+
+.webgl
+{
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    outline: none;
+}
+
